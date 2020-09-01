@@ -1,0 +1,181 @@
+.fullCard {
+    height: 540px;
+    width: 320px;
+}
+
+.card {
+    width: 312px;
+    height: 472px;
+    position: relative;
+    background: linear-gradient(135deg, transparent 30px, #f2f2f2 22px);
+    border-radius: 10px;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(135deg, transparent 32px, #1698d9 22px);
+    left: -4px;
+    right: -4px;
+    top: -4px;
+    bottom: -4px;
+    z-index: -1;
+    border-radius: 14px;
+}
+
+.description {
+    margin-left: 45px;
+    padding-top: 20px;
+}
+
+.cardHead {
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+}
+
+.cardHeadHovered {
+    font-size: 16px;
+    color: rgb(230, 46, 122);
+    line-height: 1.2;
+}
+
+.description h2 {
+    margin: 0;
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.tasteName {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.info {
+    display: block;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    font-weight: bold;
+    line-height: 1.143;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.catPic {
+    height: 267px;
+    width: 253px;
+    position: absolute;
+    top: 205px;
+    border-radius: 10px;
+}
+
+.weight {
+    position: absolute;
+    left: 220px;
+    bottom: 10px;
+    width: 81px;
+    height: 81px;
+    background-color: #1698d9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.524;
+    color: rgb(255, 255, 255);
+}
+
+.weight :first-of-type {
+    font-size: 42px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.weight :last-of-type {
+    font-size: 21px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.underInfo {
+    margin: 15px 0;
+    padding: 0;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    line-height: 1.231;
+    text-align: center;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.004);
+}
+
+.underInfo button {
+    color: #1698d9;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    height: 17px;
+}
+
+.underLine {
+    border-bottom: dashed 1px #1996d7;
+}
+
+.fullCard:not(.disabled) .card:hover {
+    cursor: pointer;
+}
+
+.hovered:not(.selected) .card::before {
+    background: linear-gradient(135deg, transparent 32px, #2ea8e6 22px);
+}
+
+.hovered .weight {
+    background-color: #2ea8e6;
+}
+
+.hovered .underInfo button {
+    color: #2ea8e6;
+}
+
+.hovered .underLine {
+    border-bottom-color: #2ea8e6;
+}
+
+.selected .card::before {
+    background: linear-gradient(135deg, transparent 32px, #d91667 22px);
+}
+
+.selected .weight {
+    background-color: #d91667;
+}
+
+.selected.hovered .weight {
+    background-color: #e62e7a;
+}
+
+.selected.hovered .card::before {
+    background: linear-gradient(135deg, transparent 32px, #e62e7a 22px);
+}
+
+.disabled .card::before {
+    background: linear-gradient(135deg, transparent 32px, #b3b3b3 22px);
+}
+
+.disabled .weight {
+    background-color: #b3b3b3;
+}
+
+.disabled .catPic {
+    opacity: 0.5;
+}
+
+.disabled .description {
+    opacity: 0.2;
+}
+
+.disabled .underInfo {
+    color: rgb(255, 255, 102);
+}
