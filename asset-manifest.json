@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/test_funbox/static/css/main.525b6d8b.chunk.css",
+    "main.js": "/test_funbox/static/js/main.2a9ee1d5.chunk.js",
+    "main.js.map": "/test_funbox/static/js/main.2a9ee1d5.chunk.js.map",
+    "runtime-main.js": "/test_funbox/static/js/runtime-main.1d520fef.js",
+    "runtime-main.js.map": "/test_funbox/static/js/runtime-main.1d520fef.js.map",
+    "static/js/2.0ca91b46.chunk.js": "/test_funbox/static/js/2.0ca91b46.chunk.js",
+    "static/js/2.0ca91b46.chunk.js.map": "/test_funbox/static/js/2.0ca91b46.chunk.js.map",
+    "index.html": "/test_funbox/index.html",
+    "precache-manifest.39fd26e0ed63e941e470618fcb339602.js": "/test_funbox/precache-manifest.39fd26e0ed63e941e470618fcb339602.js",
+    "service-worker.js": "/test_funbox/service-worker.js",
+    "static/css/main.525b6d8b.chunk.css.map": "/test_funbox/static/css/main.525b6d8b.chunk.css.map",
+    "static/js/2.0ca91b46.chunk.js.LICENSE.txt": "/test_funbox/static/js/2.0ca91b46.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/test_funbox/static/media/Exo2-Thin.117a3ba9.ttf",
+    "static/media/index.css": "/test_funbox/static/media/background.3d7e1ad7.png",
+    "static/media/cat.png": "/test_funbox/static/media/cat.eead2e56.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d520fef.js",
+    "static/js/2.0ca91b46.chunk.js",
+    "static/css/main.525b6d8b.chunk.css",
+    "static/js/main.2a9ee1d5.chunk.js"
+  ]
+}
